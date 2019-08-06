@@ -1,7 +1,7 @@
 
 //global var
 var index, delta, toggle, radius, nbReviews, windowS, clipPath, radiusW, ind;
-var pic = [ "croissant.jpg", "noimage.png", "dip.jpg", "croque.jpg", "buche.jpg", "noimage.png"];
+var pic = [ "burger.jpg", "noimage.png", "dip.jpg", "croque.jpg", "buche.jpg", "noimage.png"];
 var random = [];
 var x = 400;
 
@@ -82,7 +82,7 @@ $(document).ready(function() {
             targets: '.round:nth-child(' + (index) + ')',
             height: '15px',
             width: '15px',
-            backgroundColor: '#ff8d97',
+            backgroundColor: '#2d3033',
             easing: 'easeOutQuad',
             duration: 2*x
         });
@@ -184,7 +184,7 @@ function animation(){
             targets: '.round:nth-child(' + (index) + ')',
             height: '15px',
             width: '15px',
-            backgroundColor: '#ff8d97',
+            backgroundColor: '#2d3033',
             easing: 'easeOutQuad',
             duration: 2*x
         });

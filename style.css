@@ -248,7 +248,7 @@ svg {
 }
 .page {
     position: relative;
-    text-shadow: 1px 0px 0px var(--color3);
+    text-shadow: 1px 0px 0px #d6d6d6;
     display: block;
     height: 25px;
     cursor: pointer;
@@ -268,11 +268,11 @@ svg {
 .bar {
     display: inline-block;
     height: 3px;
-    box-shadow: 1px 0px 0px #f1afab;
+    box-shadow: 1px 0px 0px #d6d6d6;
     top: -3px;
     position: relative;
     width: 15px;
-    background-color: white;
+    background-color: var(--color3);
     margin-right: 5px;
     transition: 0.1s ease-out;
 }

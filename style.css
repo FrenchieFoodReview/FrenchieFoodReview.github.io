@@ -2,9 +2,9 @@
     --color1: #ffeedb;
     --color2: #ffcc9f;
     --color3: #ffbd8d;
-    --color1: #ffdcdb;
-    --color2: #ffa89f;
-    --color3: #ff8d97;
+    --color1: #fbfbfb;
+    --color2: #2d3033;
+    --color3: #052c4a;
 }
 body, html {
     margin: 0;
@@ -248,7 +248,7 @@ svg {
 }
 .page {
     position: relative;
-    text-shadow: 1px 0px 0px #f1afab;
+    text-shadow: 1px 0px 0px var(--color3);
     display: block;
     height: 25px;
     cursor: pointer;
@@ -278,7 +278,7 @@ svg {
 }
 .review-name {
     display: inline-block;
-    color: white;
+    color: var(--color2);
     font-size:1em;
     transition: 0.1s ease-out;
     font-weight: bold;
@@ -406,7 +406,7 @@ svg {
         opacity: 1;
     }
     .review-text {
-        background-color: white;
+        background-color: var(--color1);
         margin: 20px;
         padding: 30px;
         position: relative;

@@ -358,7 +358,7 @@ function animation(){
                 targets: '.round',
                 height: '15px',
                 width: '15px',
-                backgroundColor: '#ff8d97',
+                backgroundColor: '#2d3033',
                 easing: 'easeOutQuad',
                 duration: x
             });
